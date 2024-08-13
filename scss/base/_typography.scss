@@ -1,0 +1,34 @@
+body{@extend %body-font;}
+h1{
+    font: 700 rem(48)/em(54,48) $heading-font-family;
+    @extend %margin-bottom-0;
+    color: $heading-color;
+}
+h2{
+    font: 700 rem(36)/em(42,36) $heading-font-family;
+    @extend %margin-bottom-0;
+    color: $heading-color;
+}
+h3{
+    font: 700 rem(24)/em(30,24) $heading-font-family;
+    @extend %margin-bottom-0;
+    color: $heading-color;
+}
+h4{
+    font: 400 rem(18)/em(24,18) $heading-font-family;
+    @extend %margin-bottom-0;
+    color: $heading-color;
+}
+h5{
+    font: 400 rem(16)/em(22,16) $heading-font-family;
+    @extend %margin-bottom-0;
+    color: $heading-color;
+}
+h6{
+    font: 400 rem(14)/em(20,14) $heading-font-family; 
+    @extend %margin-bottom-0;
+    color: $heading-color;
+}
+p{
+    @extend %margin-bottom-0;
+}

@@ -1,0 +1,862 @@
+@media only screen and (max-width: 1680px) {
+	.tc-overlayspace {
+		padding: 80px 0;
+	}
+	.tc-experience__img{left: 30px;}
+}
+@media only screen and (max-width: 1600px) {
+	.positiongrid {
+		top: 35%;
+	}
+	.tc-leftSideArea {
+		.tc-circlepattren {
+			display: none;
+		}
+	}
+}
+@media only screen and (max-width: 1536px){
+	.tc-leftSideArea .tc-bannercontent{
+		width: 75%;
+		padding: 0 80px 0 90px;
+	}
+	.tc-experience__img{left: 0;}
+}
+@media only screen and (max-width: 1500px) {
+	.tc-leftSideArea {
+		.tc-bannercontent {
+			.tc-title {
+				h1 {
+					span {
+						font: 400 65px/59px "Abril Fatface";
+					}
+				}
+			}
+		}
+	}
+}
+@media only screen and (max-width: 1440px) {
+	.tc-sectiondorder{
+		display: none;
+	}
+	.positiongrid {
+		top: 20%;
+		right: 15%;
+	}
+	.overlay-menu {
+		ul {
+			li {
+				a {
+					font: 800 34px/39px "Open Sans", Arial, Helvetica, sans-serif;
+				}
+			}
+		}
+	}
+	.tc-experience__img{left: -30px;}
+}
+@media (min-width: 1200px) and (max-width: 1536px){
+	.content-details{
+		padding:15px;
+		& span{
+			right: 15px;
+			bottom: 15px;
+			font-size: 30px;
+		}
+	}
+}
+@media only screen and (max-width: 1366px) {
+	.tc-leftSideArea {
+		.tc-bannercontent {
+			.tc-scrolltop {
+				align-items: center;
+			}
+			width: 76%;
+			padding: 0 0 0 90px;
+		}
+	}
+	.positiongrid {
+		top: 29%;
+		right: 13%;
+	}
+	.tc-sectiondorder {
+		&:before {
+			display: none;
+		}
+	}
+	.tc-experience__img{left: -30px;}
+}
+@media only screen and (max-width: 1300px) {
+	.tc-sectiontitle {
+		h3 {
+			font: 700 22px/29px "Sarala", Arial, Helvetica, sans-serif;
+		}
+		span {
+			margin: 7px 0 8px 0;
+			font: 700 26px/29px "Sarala", Arial, Helvetica, sans-serif;
+		}
+	}
+	.tc-greatwords {
+		.tc-greatabsolute {
+			.tc-description {
+				p {
+					margin: 0 0px 30px 0;
+				}
+			}
+		}
+		width: 88%;
+	}
+	.tc-imagesgallery {
+		width: 88%;
+	}
+	.tc-reservearea {
+		width: 88%;
+	}
+	.tc-experience {
+		width: 88%;
+	}
+	.tc-leftSideArea {
+		.tc-circlepattren {
+			display: none;
+		}
+	}
+}
+@media only screen and (max-width: 1280px) {
+	.progress-wrap {
+		position: fixed;
+		right: 30px;
+		bottom: 10px;
+	}
+	.positiongrid {
+		top: 20%;
+		right: 17%;
+	}
+	.tc-ovlerlaynavigation:after{content: none;}
+	.tc-sidebar {
+		padding: 0 15px;
+		width: 100%;
+		height: 70px;
+		z-index: 99;
+		border: 0;
+    	justify-content: flex-start;
+		&:after{
+			height: 10px;
+			width: 100%;
+			top: auto;
+			bottom: -10px;
+			left: 0;
+			background-image: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0) 100%);
+		}
+		.tc-navcopyright {
+			transform: none;
+			display: block;
+			width: 100%;
+			text-align: center;
+			padding-right: 0;
+		}
+	}
+	.at-menu-icon{
+		position: static;
+		margin: 0 30px 0 0;
+	}
+	.sidebarwidth {
+		.tc-navcopyright {
+			display: none;
+		}
+		.header-container {
+			padding: 60px 0 0 0;
+		}
+	}
+	.tc-nav {
+		padding: 100px 15px 30px 20px;
+	}
+	.positiongrid {
+		top: 25%;
+		right: 16%;
+	}
+	.tc-leftSideArea {
+		.tc-bannercontent {
+			padding: 0 0 0 30px;
+		}
+		width: 60%;
+	}
+	.tc-bannerhead{padding-right: 44px;}
+	.tc-leftSideArea .tc-bannercontent .tc-scrolltop{height: auto;}
+}
+@media only screen and (max-width: 1200px) {
+	.tc-sectiondorder {
+		&:before {display: none;}
+	}
+}
+@media only screen and (max-width: 1199px){
+	.tc-greatpeoples,
+	.tc-reserveseat,
+	.tc-newsletter,
+	.tc-experiencesection{
+		padding-left:15px;
+		padding-right:15px;	
+	}
+	.tc-experience,
+	.tc-newsletter,
+	.tc-reservearea,
+	.tc-greatwords{width: 100%;}
+	.tc-imagesgallery{
+		width: 100%;
+		padding-left:15px;
+		padding-right:15px;
+	}
+	.myaccordion .tc-card .card-body .tc-scheduletiming{width: 18%;}
+	.tc-imagesgallery .content{
+		width: calc(100% / 4);
+		&:nth-child(n){border-radius: 0;}
+		&:first-child{border-top-left-radius: 10px;}
+		&:nth-child(4){border-top-right-radius: 10px;}
+		&:nth-child(8){border-bottom-right-radius: 10px;}
+		&:nth-child(9){border-bottom-left-radius: 10px;}
+		&:last-child{border-bottom-right-radius: 10px;}
+	}
+	.tc-newsarticles .tc-articalspost {
+		figure {
+			width: 100%;
+			img {
+				width: 100%;
+			}
+		}
+	}
+}
+@media only screen and (max-width: 1100px) {
+	.positiongrid {
+		display: none;
+	}
+	.tc-newsarticles {
+		margin: 0;
+	}
+	.tc-leftSideArea {
+		.tc-bannercontent {
+			display: flex;
+			width: 100%;
+			flex-direction: column;
+			justify-content: center;
+			padding: 0 150px 0 50px;
+			height: 100%;
+		}
+		width: 100%;
+		.tc-imgpattren {
+			display: none;
+		}
+	}
+	.tc-leftSideArea .tc-bannercontent .tc-bannerhead .tc-videoholder{margin: 0;}
+	.header-container {
+		margin-bottom: 59px;
+		.rightSidearea {
+			display: none !important;
+		}
+	}
+	.tc-experiencesection {
+		figure {
+			top: 51%;
+		}
+	}
+	.tc-articaloverlay {
+		.tc-articalspostimg {
+			width: 100%;
+		}
+	}
+	.tc-leftSideArea .tc-bannercontent .tc-scrolltop{
+		display: none;
+	}
+	.tc-bannerhead{padding-right: 0;}
+}
+@media only screen and (max-width: 991px) {
+	.myaccordion .tc-card .card-body .tc-scheduletiming{width: 28%}
+	.tc-bookyouseat {
+		margin: 50px 0 0;
+		padding:0;
+	}
+	.tc-waytorrserve {
+		.tc-orreserve {
+			top: 95%;
+			right: 45%;
+		}
+	}
+	.tc-faqs {
+		margin: 0;
+	}
+	.tc-askquestion {
+		margin: 40px 0 0;
+	}
+	.tc-sponserbrands {
+		margin: 10px 0 30px 0;
+		li {
+			width: 50%;
+			height: 100%;
+			margin: 0 auto;
+			border: 0;
+			&:nth-child(even){border-left: 1px solid #eee;}
+			&:nth-child(n+3){border-top: 1px solid #eee;}
+		}
+	}
+	.tc-othersponsersitems {
+		display: inline-flex;
+		flex-direction: row;
+		justify-content: center;
+		flex-wrap: wrap;
+		border: 0;
+	}
+	.tc-othersponsers {
+		.tc-othersponsersitems {
+			border: 1px solid #eee;
+			li {
+				width: calc(100% / 5);
+				height: 100%;
+				border-radius: 0;
+				border: 0;
+				border-left: 1px solid #eee;
+				&:first-child,
+				&:nth-child(6){border-left: 0;}
+				&:last-child{border-right: 0;}
+				&:nth-child(n+6){
+					border-top: 1px solid #eee;
+					border-radius: 0;
+				}
+			}
+		}
+	}
+	.tc-experience__img{display: none;}
+	.tc-versalitecard {
+		.card {
+			.card-img-top {
+				margin: 0 auto;
+			}
+		}
+	}
+	.tc-earlyexpires {
+		align-items: flex-start;
+		text-align: left;
+	}
+	.tc-navgrid {
+		width: 100%;
+		margin: 30px 0 0;
+		height: auto;
+	}
+	.tc-languages{
+		padding-bottom:7px;
+		margin: 0 0 20px;
+		justify-content: flex-start;
+	}
+	.tc-earlynesletter .tc-formtheme{width: 100%;}
+	.tc-earlyexpires + .tc-earlyexpires {padding-top: 30px;}
+	.overlay-menu {
+		ul {
+			li {
+				margin: 0;
+			}
+		}
+	}
+	.myaccordion .tc-card .card-body .tc-scheduledetails{margin-left: 50px;}
+	.tc-ourpremium .tc-faqstitles{width: 65%;}
+	.tc-waytorrserve .tc-orreserve span{display: none;}
+	.tc-imagesgallery .content{
+		width: calc(100% / 3);
+		&:nth-child(n){border-radius: 0;}
+		&:first-child{border-top-left-radius: 10px;}
+		&:nth-child(3){border-top-right-radius: 10px;}
+		&:nth-child(9){border-bottom-right-radius: 10px;}
+		&:last-child{border-radius: 0 0 10px 10px;}
+	}
+	.tc-articalspost .tc-articalsposdetails{padding:20px 29px; }
+	.tc-newsarticles .tc-articalspostsingle{
+		.tc-articalspostimg{
+			img{				
+				width: auto;
+			}
+		}
+	}
+	.tc-sideimg{
+		.justify-content-center{
+			justify-content: flex-start !important;
+		}
+	}
+	.tc-sideimg [class^="col-"]{
+		&:not(:last-child){
+			.tc-adressdetails{margin-bottom: 0;}
+		}
+	}
+}
+@media only screen and (max-width: 800px){
+	.overlay-menu ul li ::before{margin-left: -46px;}
+}
+@media only screen and (max-width: 768px) {
+	.tc-sectiontitle h3 ::before{
+		left: 30%;
+	}
+	.tc-sectiontitle h3 ::after{
+		left: 34%;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.tc-articalspostsingle{
+		flex-wrap: wrap;
+		flex-direction: column;
+	}
+	.tc-newsarticles .tc-articalspostsingle .tc-articalspostimg img{
+		width: 100%;
+		border-radius:10px 10px 0 0;
+	}
+	.myaccordion .tc-card .tc-coffecardbody .tc-scheduletiming .tc-coffeimg::before{content: none;}
+	.tc-versalitecard .card .card-body{
+		width: auto;
+		margin-left: 15px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.tc-meettalkative{background-image: none;}
+	.tc-meettalkative .tc-talkativedetail{width: auto;}
+	.myaccordion .tc-card .card-body .tc-scheduletiming li{margin-right: 30px;}
+	.myaccordion .tc-card .card-body .tc-scheduledetails{margin-left: 0;}
+	.tc-ourpremium{
+		flex-direction: column;
+		align-items: flex-start;
+		padding-bottom: 20px;
+	}
+	.tc-ourpremium .tc-faqstitles{width: auto;}
+	.tc-imagesgallery .content{
+		width: 50%;
+		&:nth-child(n){border-radius: 0;}
+		&:first-child{border-top-left-radius: 10px;}
+		&:nth-child(2){border-top-right-radius: 10px;}
+		&:nth-last-child(2){border-bottom-left-radius: 10px;}
+		&:last-child{border-bottom-right-radius: 10px;}
+	}
+	.tc-leftSideArea .tc-bannercontent{padding-right: 60px;}
+}
+@media only screen and (max-width: 700px) {
+	.overlay-menu {
+		ul {
+			li {
+				a {
+					font: 800 24px/25px "Open Sans", Arial, Helvetica, sans-serif;
+					margin: 0 0 9px;
+				}
+			}
+		}
+	}
+	.tc-ourpremium {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		.tc-btnarea {
+			.tc-btn {
+				margin: 0 0 30px;
+			}
+		}
+		.tc-faqstitles {
+			width: 100%;
+		}
+	}
+	.tc-sectiontitle {
+		h3 {
+			&::after {
+				left: 34%;
+			}
+			&::before {
+				left: 34%;
+			}
+		}
+	}
+	.tc-leftSideArea {
+		.tc-bannercontent {
+			.tc-scrolltop {
+				justify-content: flex-start;
+				height: auto;
+				align-items: flex-end;
+			}
+		}
+	}
+	.myaccordion {
+		.tc-card {
+			.tc-coffecardbody {
+				.tc-scheduletiming {
+					.tc-coffeimg {
+						&::before {
+							display: none;
+						}
+					}
+				}
+			}
+		}
+	}
+	.header-container {
+		.rightSidearea{
+		  .tc-imgpattren{
+			display: none;
+		}
+	}
+}
+.tc-imgpattren{
+	display: none;
+}
+}
+@media only screen and (max-width: 640px){
+	.overlay-menu ul li ::before{content: none;}
+}
+@media only screen and (max-width: 600px) {
+	.overlay {
+		&:after {
+			display: none;
+		}
+	}
+	.tc-leftSideArea {
+		.tc-bannercontent {
+			padding: 0 20px;
+		}
+	}
+	.tc-footerbottom {
+		.tc-footerlinks {
+			ul {
+				margin: 0 0 15px;
+			}
+		}
+	}
+	.tc-soliallinks ul{
+		justify-content: flex-start;
+	}
+	.tc-articalspost {
+		width: 90%;
+		margin: 0 auto;
+	}
+	.tc-nav {
+		padding: 100px 0 40px 20px;
+	}
+	.tc-faqscontent {
+		text-align: center;
+		.tc-mostfacqs{text-align: left;}
+	}
+	.tc-waytorrserve {
+		padding: 30px;
+	}
+	
+}
+@media only screen and (max-width: 575px){
+	.navbar-expand > .container-fluid{flex-wrap: wrap;}
+	.navbar-expand .navbar-collapse{width: 100%;}
+	.navbar-expand .navbar-nav{
+		margin-left: 0 !important;
+		padding-top: 10px;
+	}
+	.tc-navitemlink a.tc-btn{
+		padding: 0;
+		text-align: left;
+		min-width: auto;
+	}
+	.tc-navitemlink{margin-right: 20px;}
+	.tc-versalitecard .card .card-body{
+		margin-left: 30px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
+@media only screen and (max-width: 480px) {
+	.tc-leftSideArea {
+		.tc-bannercontent {
+			display: flex;
+			padding-right: 15px;
+			padding-left: 15px;
+			.tc-title {
+				h1 {
+					span {
+						font: 400 55px/59px "Abril Fatface";
+					}
+					font: 400 26px/33px "Sarala";
+				}
+			}
+		}
+	}
+	.tc-nav{padding-left: 15px;}
+	.myaccordion {
+		.tc-card {
+			.card-body {
+				flex-direction: column;
+				.tc-scheduletiming {
+					width: 100%;
+					margin: 0 0 30px;
+				}
+			}
+		}
+	}
+	.tc-articalspost {
+		width: 100%;
+	}
+	.tc-meettalkative {
+		.tc-talkativedetail {
+			.tc-morebtns {
+				.tc-plainbtn {
+					margin: 15px 0;
+				}
+			}
+		}
+	}
+	.progress-wrap {
+		right: 10px;
+		bottom: 10px;
+	}
+	.tc-termuse {
+		margin: 10px 0 0;
+	}
+	.tc-waytorrserve .tc-startbooking > ul{padding: 0;}
+	.tc-imagesgallery .content{
+		width: 100%;
+		&:nth-child(n){border-radius: 0;}
+		&:first-child{border-radius: 10px 10px 0 0;}
+		&:last-child{border-radius: 0 0 10px 10px;}
+	}
+	.tc-articalswithoutpost .tc-articalsposdetails,
+	.tc-articalspostsingle .tc-articalsposdetails,
+	.tc-waytorrserve,
+	.tc-pricingcards .tc-pricinglist,
+	.accordion-v2 .tc-card .card-header,
+	.accordion-v2 .tc-card .card-body,
+	.tc-meetspeakers,
+	.myaccordion .tc-card .card-body,
+	.tc-articaloverlay .tc-articalsposdetails,
+	.tc-waytorrserve .tc-startbooking > ul li a,
+	.responsive-slick .tc-peopleslider .tc-peoplesliderbody{
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+	.tc-footerbottom{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.tc-meettalkative .tc-talkativedetail{width: auto;}
+	.tc-othersponsers .tc-othersponsersitems li{width: calc(100% / 4);}
+	.tc-othersponsers .tc-othersponsersitems li:nth-child(n+5){border-top: 1px solid #eee;}
+	.tc-othersponsers .tc-othersponsersitems li:nth-child(n){border-left: 1px solid #eee;}
+	.tc-othersponsers .tc-othersponsersitems li:first-child,
+	.tc-othersponsers .tc-othersponsersitems li:nth-child(5),
+	.tc-othersponsers .tc-othersponsersitems li:nth-child(9){border-left: 0;}
+	.tc-sponserbrands li{
+		width: 100%;
+		&:nth-child(n){border-left: 0;}
+		&:nth-child(n+2){border-top: 1px solid #eee;}
+	}
+	.tc-versalitecard .card .card-body{
+		margin-left: 15px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}
+@media only screen and (max-width: 422px) {
+	.tc-navcopyright{
+		display: none;
+	}
+	.tc-sidebar {
+		height: auto;
+		min-height: 70px;
+		.tc-navcopyright {
+			text-align: left;
+			white-space: initial;
+			span {
+				padding-top: 20px;
+			}
+		}
+	}
+	.at-menu-icon {
+		a {
+			span {
+				top: 25px;
+			}
+		}
+	}
+	.navbar-toggler {
+		font-size: 16px;
+		margin: -5px 0 0 0;
+	}
+	.tc-signupformbtn {
+		flex-direction: column;
+		.form-group {
+			input[type="text"] {
+				border-radius: 5px;
+				border: 2px solid #eee;
+			}
+		}
+		.form-group .form-control{border-radius: 4px;}
+		.tc-btnarea {
+			.tc-btn {
+				border-radius: 4px;
+				width: 100%;
+			}
+		}
+	}
+	.tc-leftSideArea {
+		.tc-bannercontent {
+			.tc-title {
+				h1 {
+					span {
+						font: 400 39px/41px "Abril Fatface";
+					}
+					font: 400 22px/23px "Sarala";
+				}
+			}
+		}
+	}
+	.tc-faqscontent {
+		.tc-faqstitles {
+			h2 {
+				font: 400 26px/36px "Abril Fatface";
+			}
+		}
+	}
+	.tc-accordionsection-v2 {
+		h4 {
+			font: 700 16px/21px "Sarala" !important;
+			text-align: left;
+		}
+	}
+	.myaccordion {
+		.card-header {
+			h4 {
+				font: 400 21px/24px "Abril Fatface";
+			}
+		}
+	}
+	.tc-newsignup {
+		.tc-faqstitles {
+			h2 {
+				font: 400 26px/36px "Abril Fatface";
+			}
+		}
+		text-align: center;
+	}
+	.tc-waytorrserve {
+		.tc-startbooking {
+			.tc-sendquery {
+				ul {
+					li {
+						font: 700 17px/21px "Sarala";
+					}
+				}
+			}
+			>ul {
+				padding: 0;
+			}
+		}
+		.tc-orreserve {
+			top: 94%;
+			right: 42%;
+		}
+	}
+	.form-foroption {
+		padding: 0;
+		select{
+			padding: 0 50px 0 20px;
+		}
+		span {
+			display: none;
+		}
+	}
+	.tc-askquestion .tc-formtheme .tc-registerformgroup label{
+		display: inline-block;
+		margin: 15px 15px 10px 0;
+	}
+	.tc-askquestion {
+		.tc-formtheme {
+			.tc-registerformgroup {
+				.checkform-group {
+					align-items: flex-start;
+					flex-direction: column;
+					display: inline-block;
+				}
+			}
+		}
+	}
+	.tc-articalspostsingle {
+		figure {
+			width: 220px;
+		}
+	}
+	.tc-meetspeakers {
+		h2 {
+			font: 400 27px/34px "Abril Fatface";
+		}
+	}
+	.form-withicon {
+		min-width: 270px;
+	}
+	.tc-sidebar{
+		flex-wrap: wrap;
+		padding: 15px;
+	}
+	.tc-nav{padding-top: 110px;}
+	.tc-othersponsers .tc-othersponsersitems li{width: 50%;}
+	.tc-othersponsers .tc-othersponsersitems li:nth-child(n+3){border-top: 1px solid #eee;}
+	.tc-othersponsers .tc-othersponsersitems li:nth-child(odd){border-left: 0}
+	.tc-othersponsers .tc-othersponsersitems li:nth-child(even){border-left: 1px solid #eee;}
+}
+@media only screen and (max-width: 360px) {
+	.tc-navcopyright {
+		display: none;
+	}
+	.tc-sectiontitle {
+		span {
+			font: 700 22px/30px "Sarala", Arial, Helvetica, sans-serif;
+		}
+		h3 {
+			&::before {
+				left: 22%;
+			}
+			&::after {
+				left: 26%;
+			}
+		}
+	}
+	.tc-greatwords {
+		.tc-greatabsolute {
+			top: 89px;
+		}
+	}
+	.myaccordion {
+		.card-header {
+			h4 {
+				span {
+					font: 400 12px/24px "Open Sans";
+				}
+				em {
+					font: 400 12px/24px "Open Sans";
+				}
+			}
+		}
+	}
+	.tc-versalitecard {
+		.card {
+			.card-body {
+				width: auto;
+			}
+		}
+	}
+	.tc-leftSideArea {
+		.tc-imgpattren {
+			display: none;
+		}
+	}
+}
+@media only screen and (max-width: 320px) {
+	.at-menu-icon {
+		a {
+			span {
+				left: 20px;
+			}
+		}
+	}
+	.myaccordion {
+		.card-header {
+			padding: 10px;
+		}
+	}
+	.tc-waytorrserve {
+		.tc-orreserve {
+			top: 96%;
+			right: 39%;
+		}
+	}
+	.tc-nav{padding-top: 130px;}
+}
